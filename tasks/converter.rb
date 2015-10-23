@@ -183,7 +183,7 @@ class Paths
      @tmp_semantic_ui_dist = File.join(@tmp_semantic_ui, 'dist')
      @tmp_semantic_ui_components = File.join(@tmp_semantic_ui_dist, 'components')
 
-     @app = File.join(@root, 'app')
+     @app = File.join(@root, 'source')
      @fonts = File.join(@app, 'assets', 'fonts', 'semantic-ui')
      @images = File.join(@app, 'assets', 'images', 'semantic-ui')
      @javascripts = File.join(@app, 'assets', 'javascripts', 'semantic-ui')
