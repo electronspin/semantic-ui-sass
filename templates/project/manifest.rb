@@ -1,10 +1,10 @@
 description "Semantic UI for Sass"
 
 # Stylesheet importing semantic
-stylesheet 'styles.scss'
+stylesheet 'application.scss'
 
 # Other Semantic UI assets
-basedir = '../../app/assets'
+basedir = '../../source/assets'
 image_dir = "#{basedir}/images/semantic-ui"
 javascript_dir = ["#{basedir}/javascripts/semantic-ui", "#{basedir}/javascripts/semantic-ui/behavior"]
 font_dir = "#{basedir}/fonts/semantic-ui"
